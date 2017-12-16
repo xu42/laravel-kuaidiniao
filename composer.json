@@ -1,0 +1,36 @@
+{
+    "name": "xu42/laravel-kdniao",
+    "description": "Laravel Wrapper for KuaiDiNiao",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "快递鸟",
+        "快递追踪"
+    ],
+    "homepage": "https://github.com/xu42/laravel-kdniao",
+    "authors": [
+        {
+            "name": "xu42",
+            "email": "xu42.cn@gmail.com",
+            "homepage": "https://xu42.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Xu42\\KuaiDiNiao\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "^5.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xu42\\KuaiDiNiao\\KuaiDiNiaoServiceProvider"
+            ],
+            "aliases": {
+                "KuaiDiNiao": "Xu42\\KuaiDiNiao\\KuaiDiNiao"
+            }
+        }
+    }
+}
