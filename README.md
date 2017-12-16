@@ -1,4 +1,4 @@
-# Laravel-kdniao
+# Laravel-KuaiDiNiao
 
 Laravel Wrapper for KuaiDiNiao.
 
@@ -8,7 +8,7 @@ Laravel Wrapper for KuaiDiNiao.
 1. require library
 
 ```shell
-composer require xu42/laravel-kdniao
+composer require xu42/laravel-kuaidiniao
 ```
 
 2. config for Laravel
@@ -21,7 +21,7 @@ Edit the `config/kdniao.php` file.
 3. config for Lumen
 
 ```shell
-cp vendor/xu42/laravel-kdniao/src/config.php config/kdniao.php
+cp vendor/xu42/laravel-kuaidiniao/src/config.php config/kdniao.php
 ```
 Edit the `bootstrap/app.php` file, add `$app->configure('kdniao');` in front of the `return $app;`.  
 Edit the `config/kdniao.php` file.

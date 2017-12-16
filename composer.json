@@ -1,5 +1,5 @@
 {
-    "name": "xu42/laravel-kdniao",
+    "name": "xu42/laravel-kuaidiniao",
     "description": "Laravel Wrapper for KuaiDiNiao",
     "type": "library",
     "license": "MIT",
@@ -7,7 +7,7 @@
         "快递鸟",
         "快递追踪"
     ],
-    "homepage": "https://github.com/xu42/laravel-kdniao",
+    "homepage": "https://github.com/xu42/laravel-kuaidiniao",
     "authors": [
         {
             "name": "xu42",
