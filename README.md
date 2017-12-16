@@ -11,12 +11,19 @@ Laravel Wrapper for KuaiDiNiao.
 composer require xu42/laravel-kdniao
 ```
 
-2. config
+2. config for Laravel
 
 ```shell
 php artisan vendor:publish
 ```
+Edit the `config/kdniao.php` file.
 
+3. config for Lumen
+
+```shell
+cp vendor/xu42/laravel-kdniao/src/config.php config/kdniao.php
+```
+Edit the `bootstrap/app.php` file, add `$app->configure('kdniao');` in front of the `return $app;`.  
 Edit the `config/kdniao.php` file.
 
 
